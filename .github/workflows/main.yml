@@ -1,0 +1,194 @@
+[root]     -  SETUP.EXE  : Executable for installing.
+              README.TXT : Release notes, last-minute documentation,
+                           and a list of known problems.
+              INSTALL.TXT: installation instructions and minimum 
+                           system requirements.
+\Catlog    -  Contains all Catalog PDF files.
+\Common    -  Contains lock independent Shree-Lipi 7.1 files.
+\Crystal   -  Contains crystal report extension
+\DefFonts     -  Contains all web font files.
+\DevBahar - contains DevBahar fonts in encrypted mode.
+\Drivers - Contains driver files for locks.   
+\Extra - Contains sample MS Word,Adobe PageMaker jobs. It also 
+              contains SL2000 sample applications in Visual C++, 
+              Visual Basic, Delphi, Visual FoxPro and 
+	files required for Shree-Lipi 1.0 keyboard handler.
+\LngFonts - Contains all Encrypted font files for other layouts.
+\Manuals - contains manual soft copy for Shree-Lipi 7.1 and API.
+\MemoHasp      -  Contains files required for installing Shree-Lipi 7.1's MemoHasp Lock version.
+\MitNet - Contains files required for installing Shree-Lipi 7.1's MITUSB Network Lock version.
+\MitUsb -   Contains files required for installing Shree-Lipi 7.1's MITUSB Lock version.
+\ParLock -  Contains files required for installing Shree-Lipi 7.1's Parallel Lock/USB version.
+\Resource  -  Contains resource DLL for images used while installing Shree-Lipi 7.1 
+\scrsaver  -  Contains screen savers.
+\SLock     -  Contains files required for installing Shree-Lipi 7.1's WebLock version.
+\Tools   -  Contains installable versions of Acrobat Reader, Borland database Engine for 32bit applications.
+\UniFonts - contains unicode fonts
+
+
+1.2 CD-ROM 2 directory details
+\fkfonts - Contains ITR fonts.
+\ExFonts - Contains Shree-Lipi Ex fonts.
+\GujBahar - contains GujBahar fonts in encrypted mode.
+\Fonts - contains Modular fonts in encrypted mode.
+\Sufonts - Contains Suchika Fonts
+
+
+
+----------------------------------------------------------------------
+2. BEFORE YOU RUN SETUP
+----------------------------------------------------------------------
+
+Before you install Shree-Lipi 7.1, make sure that your computers 
+meet the minimum hardware and software requirements.
+
+2.1 Hardware Requirements
+
+  To install Shree-Lipi 7.1, you must meet certain hardware 
+  requirements, which include the following:
+
+    Windows 98, or Windows NT 4.0 or later.
+    A hard disk with a minimum of 200 megabytes (MB) available space 
+    for a full installation of all the updated files required for 
+    Shree-Lipi 7.1 to run.
+    A minimum of 64 MB of RAM for the computers.
+
+  Please note that Windows 3.1 with Win32s is not supported.
+
+2.2 Software Requirements
+--------------------------
+
+  Before you install Shree-Lipi 7.1 on any computer, your 
+  computer must meet the following software requirements:
+
+    Any of the following operating system platforms:
+    Windows 98,Windows ME,Windows Vista, Windows NT Server or Workstation
+    (with Service Pack 4) or later.
+
+  To access Shree-Lipi 7.1 Network version applications from 
+  client computers, client computers must meet the following software
+  requirements:
+
+    Any of the following operating system platforms: 
+    Windows NT Server 5.0 or later, or Windows NT or later.
+
+
+----------------------------------------------------------------------
+3. RUN SETUP!
+----------------------------------------------------------------------
+
+  For Shree-Lipi 7.1 to work correctly, please make sure that 
+  your computer meets all the Hardware and Software requirements.
+
+  ---------------------------------------------------------
+  3.1 Installing Stand alone version of Shree-Lipi 7.1
+  ---------------------------------------------------------
+
+      Note : Stand alone version of Shree-Lipi 7.1 will work on
+             a single PC only.
+
+      >>> To install Shree-Lipi 7.1
+      1. Insert the Shree-Lipi 7.1 CD-ROM in the CD-ROM drive.
+      2. If the CD-ROM drive is local and the AUTORUN feature of the
+         CD-ROM is enabled then Shree-Lipi 7.1 will start 
+         automatically on inserting the Shree-Lipi CD-ROM. If the 
+         Setup does not start automatically then you can start the 
+         installation explicitly by running the file Setup.exe from 
+         the root directory of the Shree-Lipi CD-ROM. For this follow 
+         the steps given below
+
+           a. Select Run from the Taskbar Start menu
+           b. Type the full name of the file (for example, assuming 
+              your CD-ROM drive is D
+                     D:\SETUP.EXE
+           c. Press the Enter key, and follow the prompts
+
+       The Setup program installs the program files to the directory
+       specified by you while installing Shree-Lipi 7.1. The 
+       following subdirectories are created under your specified 
+       Shree-Lipi 7.1 directory with the setup program.
+
+       Assuming destination directory specified by you is 
+       "C:\SHREE70".
+
+        Subdirectory	      Description
+        ------------		-----------
+        C:\SHREE70\Utility    It will contain catalog and manuals only if 
+                              you select electronic catalog option 
+                              while installing Shree-Lipi 7.1 or
+                              If you select Electonic manual option 
+                              then shreelipi_manual.pdf will be copied.
+
+        C:\SHREE70\LNGFONTS   Contains 2 Fonts per
+                              language given free of cost with
+                              Shree-Lipi.
+
+        C:\BDEFILES   This Subdirectory is created only when
+                              BDE is not installed in your computer
+                              and you have selected utility of
+                              Shree-Lipi that requires BDE which are
+                              DATABASE MANAGER, LABELMAKER, 
+                              LANGUAGE DICTIONARY, SUCHIKA
+
+        C:\SHREE70\DICT	      This subdirectory is created only 
+                              when you have selected language dictionary and Suchika for installation. 
+
+        Note : If Office Enhancement option is selected while 
+               installing Shree-Lipi 7.1 and MS Word and MS Excel 
+               is installed in your computer the following files will 
+               be copied to the Startup path of MS Word and MS Excel.
+
+        SHREE.DOT for MS Word
+        SHREE.XLA for MS Excel
+ 
+		   If PageMaker Plugins option is selected while 
+               installing Shree-Lipi 7.1 and Adobe PageMaker 7.1 or
+               above is installed in your computer the following files 
+               will be copied to the Plugins path of Adobe PageMaker.
+               SHREE.ADD, Instsl.ini
+
+	Corel Draw 12, 13 Shree.gms, Instsl.ini
+
+	Tools -> Visual Basiv-> Play-> Select Macros in as Modular (Shree.Gms)
+
+	Indesign Cs1, CS2  ShreeLipi.Pln, Instsl.ini
+
+  -----------------------------------------------------
+  3.2 Installing Network version of Shree-Lipi 7.1
+  -----------------------------------------------------
+
+	For Installation refer printed Manual.
+	
+	Note : 
+	
+	1.  For Network installation, server should be installed outside the domain for
+	     accessing intergrouped clients.
+	2. For Network installation, firewall should be disabled.
+	3. Directory where Shreelipi is installed on server should not be sharing password protected.
+
+  ---------------------------------
+  3.3 Changes made to the Registry
+  ---------------------------------
+    After installation of Shree-Lipi following registry entries are 
+    created.
+    
+    "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\
+     Run\Shree-Lipi 7.1"
+
+    "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\
+     Uninstall\Shree-Lipi 7.1"
+
+     For OFFICE ENHANCEMENT
+     Path of Shree-Lipi is added in the value of the key
+    "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\
+     App Paths\Osa.EXE"
+      
+    "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\
+     App Paths\Osa9.EXE"
+
+    "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\
+     App Paths\WINWORD.EXE"
+
+    "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\
+     App Paths\EXCEL.EXE"
+
